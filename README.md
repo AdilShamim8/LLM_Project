@@ -1,36 +1,33 @@
-# End to End Gen AI Project Using Langchain and OpenAI in the Finance Domain  
+# LLM Project | End-to-End Gen AI Project Using Langchain, OpenAI in Finance Domain  
 
-## Project Overview  
+## Overview  
 
-This project is an end-to-end Generative AI application built using Langchain and OpenAI's models, tailored specifically for the finance domain. It aims to streamline financial analysis, reporting, and decision-making processes by harnessing the power of large language models (LLMs).   
+The **LLM Project** is an end-to-end Generative AI application designed for the finance domain. It leverages the powerful capabilities of Langchain and OpenAI to provide users with a robust question-answering tool that can interact with web content. Users can input news or blog URLs related to finance and receive insightful summaries and answers to their queries.  
 
 ## Features  
 
-- **Natural Language Processing (NLP):** Analyze and interpret financial texts, reports, and news articles.  
-- **Data Extraction:** Automatically extract key financial metrics and insights from unstructured data.  
-- **Report Generation:** Generate insightful financial reports in natural language based on input data.  
-- **Q&A System:** Provide instant answers to financial queries using natural language.  
-- **Sentiment Analysis:** Assess the sentiment of financial news and reports to gauge market trends.  
+- **Web URL Input**: Users can input URLs of finance-related blogs or news articles.  
+- **Question Answering**: The system utilizes advanced language models to provide answers based on the content of the provided URLs.  
+- **Contextual Understanding**: The AI understands the context of finance-related data and generates helpful insights.  
 
-## Technologies Used  
+## Tech Stack  
 
-- **Langchain:** A framework for developing applications powered by LLMs, allowing for seamless integration of various LLM capabilities.  
-- **OpenAI:** Utilized for accessing advanced language models for text generation and understanding.  
-- **Pandas:** For data manipulation and analysis.  
-- **NumPy:** For numerical operations on financial data.  
-- **Matplotlib/Seaborn:** For data visualization.  
+- **Langchain**: Framework for building applications with LLMs (Language Learning Models).  
+- **OpenAI API**: Access to powerful language models for generating responses.  
+- **Python**: Programming language used for implementation.  
+- **Flask**: Lightweight web framework for building the application interface.  
 
 ## Getting Started  
 
 ### Prerequisites  
 
-- Python 3.7 or higher  
-- Required Python libraries (see Requirements section)  
+- Python 3.8 or higher  
+- Access to the OpenAI API (API key required)  
+- Required libraries (listed in `requirements.txt`)  
 
 ### Installation  
 
 1. Clone the repository:  
-
    ```bash  
-   git clone https://github.com/yourusername/llm-finance-project.git  
-   cd llm-finance-project
+   git clone https://github.com/AdilShamim8/LLM-Project.git  
+   cd LLM-Project
